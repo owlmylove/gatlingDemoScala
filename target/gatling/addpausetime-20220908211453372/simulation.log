@@ -1,0 +1,6 @@
+RUN	videogamedb.scriptfundamentals.AddPauseTime	addpausetime	1662671693372	test	3.8.3
+USER	Videogames 3 Get calls	START	1662671694583
+REQUEST		Get all videogames 1st call	1662671694581	1662671694734	OK	 
+REQUEST		Get specific videogame	1662671699749	1662671699796	OK	 
+REQUEST		Get all videogames 2 call	1662671709222	1662671709276	OK	 
+USER	Videogames 3 Get calls	END	1662671712283

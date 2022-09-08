@@ -7,13 +7,13 @@ import io.gatling.http.Predef.http
 class MyFirstTest extends Simulation{
 
   // 1 Http Configuration
-  val httpProtocol = http.baseUrl(url="https://videogamedb.uk/api")
-    .acceptHeader(value = "application/json")
+  val httpProtocol = http.baseUrl("https://videogamedb.uk/api")
+    .acceptHeader("application/json")
 
 
   // 2 Scenario Definition
-  val scn = scenario(name= "My First Test")
-      .exec(http(requestName= "Get all games")
+  val scn = scenario("My First Test")
+      .exec(http("Get all games")
         .get("/videogame"))
 
 

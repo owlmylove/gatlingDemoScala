@@ -1,0 +1,6 @@
+RUN	videogamedb.scriptfundamentals.CheckResponseCode	checkresponsecode	1662675053452	test	3.8.3
+USER	3 GET videogame call response codes	START	1662675054668
+REQUEST		Get all games 1st call	1662675054665	1662675054825	OK	 
+REQUEST		Get a specific vedeogame	1662675059843	1662675059892	OK	 
+REQUEST		Get all games 3d call	1662675062647	1662675062704	OK	 
+USER	3 GET videogame call response codes	END	1662675065711
