@@ -17,7 +17,7 @@ class AddPauseTime extends Simulation{
 
     .exec(http(requestName= "Get all videogames 1st call"))
     .get("/videogame")
-    .pause(duration= 5)
+    .pause( duration= 5)
 
     .exec(http(requestName= "Get specific videogame"))
     .get("/videogame/1")
@@ -28,8 +28,8 @@ class AddPauseTime extends Simulation{
     .pause(3000 milliseconds)
 
   //load
-  setup(
-    scn.inject(atOnceuser(1))
+  setUp(
+    scn.inject(atOnceuser(users= 1))
       .protocols(httpProtocol)
   )
 
