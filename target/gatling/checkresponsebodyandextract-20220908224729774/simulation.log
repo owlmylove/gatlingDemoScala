@@ -1,0 +1,4 @@
+RUN	videogamedb.scriptfundamentals.CheckResponseBodyAndExtract	checkresponsebodyandextract	1662677249774	test	3.8.3
+USER	Response Body check	START	1662677251247
+REQUEST		check flag name value	1662677251245	1662677251531	OK	 
+USER	Response Body check	END	1662677251711

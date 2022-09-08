@@ -1,0 +1,4 @@
+RUN	videogamedb.scriptfundamentals.CheckResponseBodyAndExtract	checkresponsebodyandextract	1662677292848	test	3.8.3
+USER	Response Body check	START	1662677293817
+REQUEST		check flag name value	1662677293815	1662677294104	KO	jsonPath($.name).find.is(Resident Evil 5), but actually found Resident Evil 4
+USER	Response Body check	END	1662677294282

@@ -33,10 +33,9 @@ class CheckResponseCode extends Simulation{
       .pause(3000.milliseconds)
 
 
-
   //load
-  setUp(
-    scn.inject(atOnceUsers(1))
+     setUp(
+       scn.inject(atOnceUsers(1))
       .protocols(httpProtocol)
 
   )
