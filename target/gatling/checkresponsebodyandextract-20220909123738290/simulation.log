@@ -1,0 +1,6 @@
+RUN	videogamedb.scriptfundamentals.CheckResponseBodyAndExtract	checkresponsebodyandextract	1662727058290	еу	3.8.3
+USER	Response Body check	START	1662727059661
+REQUEST		check flag name value	1662727059659	1662727059843	OK	 
+REQUEST		Get videogame id	1662727060026	1662727060090	OK	 
+REQUEST		check the right ID has extracted	1662727060122	1662727060171	OK	 
+USER	Response Body check	END	1662727060175

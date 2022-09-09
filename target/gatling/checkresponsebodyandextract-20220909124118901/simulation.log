@@ -1,0 +1,6 @@
+RUN	videogamedb.scriptfundamentals.CheckResponseBodyAndExtract	checkresponsebodyandextract	1662727278901	test	3.8.3
+USER	Response Body check	START	1662727279774
+REQUEST		check flag name value	1662727279772	1662727279922	OK	 
+REQUEST		Get videogame id	1662727280096	1662727280145	OK	 
+REQUEST		check the right ID has extracted	1662727280162	1662727280210	KO	jsonPath($.name).find.is(Gran Turismo 4), but actually found Gran Turismo 3
+USER	Response Body check	END	1662727280217
