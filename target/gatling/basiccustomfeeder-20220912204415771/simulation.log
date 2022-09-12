@@ -1,0 +1,13 @@
+RUN	videogamedb.feeders.BasicCustomFeeder	basiccustomfeeder	1663015455771	test	3.8.3
+USER	Basic custom feeder	START	1663015456549
+REQUEST		Get video game with id - 1	1663015456612	1663015456764	OK	 
+REQUEST		Get video game with id - 2	1663015457782	1663015457829	OK	 
+REQUEST		Get video game with id - 3	1663015458833	1663015458886	OK	 
+REQUEST		Get video game with id - 4	1663015459890	1663015459950	OK	 
+REQUEST		Get video game with id - 5	1663015460953	1663015461004	OK	 
+REQUEST		Get video game with id - 6	1663015462007	1663015462062	OK	 
+REQUEST		Get video game with id - 7	1663015463066	1663015463119	OK	 
+REQUEST		Get video game with id - 8	1663015464122	1663015464203	OK	 
+REQUEST		Get video game with id - 9	1663015465206	1663015465258	OK	 
+REQUEST		Get video game with id - 10	1663015466262	1663015466315	OK	 
+USER	Basic custom feeder	END	1663015467321

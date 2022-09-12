@@ -1,0 +1,13 @@
+RUN	videogamedb.feeders.BasicCustomFeeder	basiccustomfeeder	1663015366190	test	3.8.3
+USER	Basic custom feeder	START	1663015367477
+ERROR	Get video game with id - 1: Failed to build request: No attribute named 'gameid' is defined 	1663015367484
+ERROR	Get video game with id - 2: Failed to build request: No attribute named 'gameid' is defined 	1663015368493
+ERROR	Get video game with id - 3: Failed to build request: No attribute named 'gameid' is defined 	1663015369496
+ERROR	Get video game with id - 4: Failed to build request: No attribute named 'gameid' is defined 	1663015370499
+ERROR	Get video game with id - 5: Failed to build request: No attribute named 'gameid' is defined 	1663015371501
+ERROR	Get video game with id - 6: Failed to build request: No attribute named 'gameid' is defined 	1663015372504
+ERROR	Get video game with id - 7: Failed to build request: No attribute named 'gameid' is defined 	1663015373507
+ERROR	Get video game with id - 8: Failed to build request: No attribute named 'gameid' is defined 	1663015374510
+ERROR	Get video game with id - 9: Failed to build request: No attribute named 'gameid' is defined 	1663015375512
+ERROR	Get video game with id - 10: Failed to build request: No attribute named 'gameid' is defined 	1663015376514
+USER	Basic custom feeder	END	1663015377520
