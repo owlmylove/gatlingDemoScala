@@ -1,0 +1,5 @@
+RUN	videogamedb.scriptfundamentals.Authentication	authentication	1662991062779	test	3.8.3
+USER	Authenticate	START	1662991064020
+REQUEST		User authentication	1662991064016	1662991064194	OK	 
+REQUEST		Create a new game	1662991064497	1662991064565	OK	 
+USER	Authenticate	END	1662991064572

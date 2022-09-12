@@ -1,0 +1,5 @@
+RUN	videogamedb.scriptfundamentals.Authentication	authentication	1662990728364	test	3.8.3
+USER	Authenticate	START	1662990729426
+REQUEST		User authentication	1662990729424	1662990729597	KO	status.find.in([200, 209], 304), found 406
+ERROR	Create a new game: Failed to build request: No attribute named 'jwtToken' is defined 	1662990729801
+USER	Authenticate	END	1662990729808

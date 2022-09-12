@@ -1,0 +1,10 @@
+{
+  "simulation": "videogamedb.scriptfundamentals.Authentication",
+  "simulationId": "authentication-20220912135742779",
+  "start": 1662991064016,
+  "description": "test",
+  "scenarios": ["Authenticate"],
+  "assertions": [
+
+  ]
+}
