@@ -1,0 +1,473 @@
+{
+  "type": "GROUP",
+"name": "All Requests",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "All Requests",
+    "numberOfRequests": {
+        "total": 10,
+        "ok": 10,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 104,
+        "ok": 104,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 396,
+        "ok": 396,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 148,
+        "ok": 148,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 83,
+        "ok": 83,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 122,
+        "ok": 122,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 131,
+        "ok": 131,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 278,
+        "ok": 278,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 372,
+        "ok": 372,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 10,
+    "percentage": 100
+},
+    "group2": {
+    "name": "t ≥ 800 ms <br> t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t ≥ 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.8333333333333334,
+        "ok": 0.8333333333333334,
+        "ko": 0
+    }
+},
+"contents": {
+"req_games-from-csv--33249": {
+        "type": "REQUEST",
+        "name": "Games from csv file using feeder with name - Resident Evil 4",
+"path": "Games from csv file using feeder with name - Resident Evil 4",
+"pathFormatted": "req_games-from-csv--33249",
+"stats": {
+    "name": "Games from csv file using feeder with name - Resident Evil 4",
+    "numberOfRequests": {
+        "total": 2,
+        "ok": 2,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 120,
+        "ok": 120,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 396,
+        "ok": 396,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 258,
+        "ok": 258,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 138,
+        "ok": 138,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 258,
+        "ok": 258,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 327,
+        "ok": 327,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 382,
+        "ok": 382,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 393,
+        "ok": 393,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 2,
+    "percentage": 100
+},
+    "group2": {
+    "name": "t ≥ 800 ms <br> t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t ≥ 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.16666666666666666,
+        "ok": 0.16666666666666666,
+        "ko": 0
+    }
+}
+    },"req_games-from-csv--6ef3e": {
+        "type": "REQUEST",
+        "name": "Games from csv file using feeder with name - Gran Turismo 3",
+"path": "Games from csv file using feeder with name - Gran Turismo 3",
+"pathFormatted": "req_games-from-csv--6ef3e",
+"stats": {
+    "name": "Games from csv file using feeder with name - Gran Turismo 3",
+    "numberOfRequests": {
+        "total": 2,
+        "ok": 2,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 125,
+        "ok": 125,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 133,
+        "ok": 133,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 129,
+        "ok": 129,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 4,
+        "ok": 4,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 129,
+        "ok": 129,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 131,
+        "ok": 131,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 133,
+        "ok": 133,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 133,
+        "ok": 133,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 2,
+    "percentage": 100
+},
+    "group2": {
+    "name": "t ≥ 800 ms <br> t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t ≥ 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.16666666666666666,
+        "ok": 0.16666666666666666,
+        "ko": 0
+    }
+}
+    },"req_games-from-csv--42864": {
+        "type": "REQUEST",
+        "name": "Games from csv file using feeder with name - Tetris",
+"path": "Games from csv file using feeder with name - Tetris",
+"pathFormatted": "req_games-from-csv--42864",
+"stats": {
+    "name": "Games from csv file using feeder with name - Tetris",
+    "numberOfRequests": {
+        "total": 2,
+        "ok": 2,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 115,
+        "ok": 115,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 116,
+        "ok": 116,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 116,
+        "ok": 116,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 116,
+        "ok": 116,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 116,
+        "ok": 116,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 116,
+        "ok": 116,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 116,
+        "ok": 116,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 2,
+    "percentage": 100
+},
+    "group2": {
+    "name": "t ≥ 800 ms <br> t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t ≥ 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.16666666666666666,
+        "ok": 0.16666666666666666,
+        "ko": 0
+    }
+}
+    },"req_games-from-csv--497ed": {
+        "type": "REQUEST",
+        "name": "Games from csv file using feeder with name - Super Mario 64",
+"path": "Games from csv file using feeder with name - Super Mario 64",
+"pathFormatted": "req_games-from-csv--497ed",
+"stats": {
+    "name": "Games from csv file using feeder with name - Super Mario 64",
+    "numberOfRequests": {
+        "total": 2,
+        "ok": 2,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 104,
+        "ok": 104,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 123,
+        "ok": 123,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 114,
+        "ok": 114,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 10,
+        "ok": 10,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 114,
+        "ok": 114,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 118,
+        "ok": 118,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 122,
+        "ok": 122,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 123,
+        "ok": 123,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 2,
+    "percentage": 100
+},
+    "group2": {
+    "name": "t ≥ 800 ms <br> t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t ≥ 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.16666666666666666,
+        "ok": 0.16666666666666666,
+        "ko": 0
+    }
+}
+    },"req_games-from-csv--e64c4": {
+        "type": "REQUEST",
+        "name": "Games from csv file using feeder with name - The Legend of Zelda: Ocarina of Time",
+"path": "Games from csv file using feeder with name - The Legend of Zelda: Ocarina of Time",
+"pathFormatted": "req_games-from-csv--e64c4",
+"stats": {
+    "name": "Games from csv file using feeder with name - The Legend of Zelda: Ocarina of Time",
+    "numberOfRequests": {
+        "total": 2,
+        "ok": 2,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 115,
+        "ok": 115,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 133,
+        "ok": 133,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 124,
+        "ok": 124,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 9,
+        "ok": 9,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 124,
+        "ok": 124,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 129,
+        "ok": 129,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 132,
+        "ok": 132,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 133,
+        "ok": 133,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 2,
+    "percentage": 100
+},
+    "group2": {
+    "name": "t ≥ 800 ms <br> t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t ≥ 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.16666666666666666,
+        "ok": 0.16666666666666666,
+        "ko": 0
+    }
+}
+    }
+}
+
+}

@@ -1,0 +1,13 @@
+RUN	videogamedb.feeders.CsvFeeder	csvfeeder	1663006908663	test	3.8.3
+USER	Csv Feeder test	START	1663006909614
+REQUEST		Games from csv file using feeder with name - Resident Evil 4	1663006909651	1663006910047	OK	 
+REQUEST		Games from csv file using feeder with name - Gran Turismo 3	1663006911227	1663006911360	OK	 
+REQUEST		Games from csv file using feeder with name - Tetris	1663006912365	1663006912481	OK	 
+REQUEST		Games from csv file using feeder with name - Super Mario 64	1663006913484	1663006913607	OK	 
+REQUEST		Games from csv file using feeder with name - The Legend of Zelda: Ocarina of Time	1663006914612	1663006914727	OK	 
+REQUEST		Games from csv file using feeder with name - Resident Evil 4	1663006915732	1663006915852	OK	 
+REQUEST		Games from csv file using feeder with name - Gran Turismo 3	1663006916855	1663006916980	OK	 
+REQUEST		Games from csv file using feeder with name - Tetris	1663006917985	1663006918100	OK	 
+REQUEST		Games from csv file using feeder with name - Super Mario 64	1663006919105	1663006919209	OK	 
+REQUEST		Games from csv file using feeder with name - The Legend of Zelda: Ocarina of Time	1663006920213	1663006920346	OK	 
+USER	Csv Feeder test	END	1663006921354

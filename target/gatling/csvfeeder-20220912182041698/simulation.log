@@ -1,0 +1,13 @@
+RUN	videogamedb.feeders.CsvFeeder	csvfeeder	1663006841698	test	3.8.3
+USER	Csv Feeder test	START	1663006843355
+REQUEST		Games from csv file using feeder with name - Resident Evil 4	1663006843397	1663006843786	OK	 
+REQUEST		Games from csv file using feeder with name - Gran Turismo 3	1663006844968	1663006845074	OK	 
+REQUEST		Games from csv file using feeder with name - Tetris	1663006846079	1663006846435	OK	 
+REQUEST		Games from csv file using feeder with name - Super mario 64	1663006847440	1663006847574	KO	jsonPath($.name).find.is(Super mario 64), but actually found Super Mario 64
+REQUEST		Games from csv file using feeder with name - The Legend of Zelda: Ocarina of Time	1663006848580	1663006848704	OK	 
+REQUEST		Games from csv file using feeder with name - Resident Evil 4	1663006849708	1663006849834	OK	 
+REQUEST		Games from csv file using feeder with name - Gran Turismo 3	1663006850838	1663006850969	OK	 
+REQUEST		Games from csv file using feeder with name - Tetris	1663006851973	1663006852078	OK	 
+REQUEST		Games from csv file using feeder with name - Super mario 64	1663006853083	1663006853781	KO	jsonPath($.name).find.is(Super mario 64), but actually found Super Mario 64
+REQUEST		Games from csv file using feeder with name - The Legend of Zelda: Ocarina of Time	1663006854784	1663006854922	OK	 
+USER	Csv Feeder test	END	1663006855930

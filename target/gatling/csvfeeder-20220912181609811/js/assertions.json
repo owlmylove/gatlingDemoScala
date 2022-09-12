@@ -1,0 +1,10 @@
+{
+  "simulation": "videogamedb.feeders.CsvFeeder",
+  "simulationId": "csvfeeder-20220912181609811",
+  "start": 1663006571115,
+  "description": "test",
+  "scenarios": ["Csv Feeder test"],
+  "assertions": [
+
+  ]
+}

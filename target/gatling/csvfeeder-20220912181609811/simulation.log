@@ -1,0 +1,13 @@
+RUN	videogamedb.feeders.CsvFeeder	csvfeeder	1663006569811	test	3.8.3
+USER	Csv Feeder test	START	1663006571115
+REQUEST		Games from csv file using feeder with name - Resident Evil 4	1663006571137	1663006571293	KO	jsonPath($.name).find.is(Resident Evil 4), but actually found nothing
+REQUEST		Games from csv file using feeder with name - Gran Turismo 3	1663006572485	1663006572542	KO	jsonPath($.name).find.is(Gran Turismo 3), but actually found nothing
+REQUEST		Games from csv file using feeder with name - Tetris	1663006573547	1663006573601	KO	jsonPath($.name).find.is(Tetris), but actually found nothing
+REQUEST		Games from csv file using feeder with name - Super mario 64	1663006574606	1663006574664	KO	jsonPath($.name).find.is(Super mario 64), but actually found nothing
+REQUEST		Games from csv file using feeder with name - The Legend of Zelda: Ocarina of Time	1663006575669	1663006575720	KO	jsonPath($.name).find.is(The Legend of Zelda: Ocarina of Time), but actually found nothing
+REQUEST		Games from csv file using feeder with name - Resident Evil 4	1663006576725	1663006576781	KO	jsonPath($.name).find.is(Resident Evil 4), but actually found nothing
+REQUEST		Games from csv file using feeder with name - Gran Turismo 3	1663006577785	1663006577838	KO	jsonPath($.name).find.is(Gran Turismo 3), but actually found nothing
+REQUEST		Games from csv file using feeder with name - Tetris	1663006578843	1663006578907	KO	jsonPath($.name).find.is(Tetris), but actually found nothing
+REQUEST		Games from csv file using feeder with name - Super mario 64	1663006579912	1663006579965	KO	jsonPath($.name).find.is(Super mario 64), but actually found nothing
+REQUEST		Games from csv file using feeder with name - The Legend of Zelda: Ocarina of Time	1663006580969	1663006581027	KO	jsonPath($.name).find.is(The Legend of Zelda: Ocarina of Time), but actually found nothing
+USER	Csv Feeder test	END	1663006582035
