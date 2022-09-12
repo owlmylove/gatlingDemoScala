@@ -4,21 +4,26 @@ import io.gatling.core.scenario.Simulation
 import io.gatling.http.Predef._
 import io.gatling.core.Predef._
 
-class CodeReuse extends Simulation{
+class CodeReuse extends Simulation {
 
-  val httpProtocol= http.baseUrl("https://videogamedb.uk/api")
+  val httpProtocol = http.baseUrl("https://videogamedb.uk/api")
     .acceptHeader("application/json")
 
-  def getAllGames()= {
-    exec(http("Get all games")
-    .get("/videogame")
-    .check(status.is(200)))
+  def getAllGames() = {
+    repeat(3) {
+      exec(http("Get all games")
+        .get("/videogame")
+        .check(status.is(200)))
+    }
   }
 
-  def getSpecificGame()= {
-    exec(http("Get a specific game")
-    .get("/videogame/1")
-    .check(status.in(200 to 210)))
+  def getSpecificGame() = {
+    repeat(5, counterName = "counter") {
+      exec(http("Get a specific game with id: #{counter}")
+        .get("/videogame/#{counter}")
+        .check(status.in(200 to 210)))
+    }
+
   }
 
   val scn = scenario("Code Reuse")
@@ -26,7 +31,9 @@ class CodeReuse extends Simulation{
     .pause(5)
     .exec(getSpecificGame())
     .pause(5)
-    .exec(getAllGames())
+    .repeat(2){
+      getAllGames()
+    }
 
 
   setUp(
