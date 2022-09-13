@@ -1,0 +1,10 @@
+{
+  "simulation": "videogamedb.simulations.RampUsersLoadSimulation",
+  "simulationId": "rampusersloadsimulation-20220913183000019",
+  "start": 1663093806388,
+  "description": "test",
+  "scenarios": ["Ramp Load Users Test"],
+  "assertions": [
+
+  ]
+}
