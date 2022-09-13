@@ -1,0 +1,10 @@
+{
+  "simulation": "videogamedb.simulations.FixedDurationLoadSimulation",
+  "simulationId": "fixeddurationloadsimulation-20220913185842762",
+  "start": 1663095529083,
+  "description": "test",
+  "scenarios": ["Fixed Duration Load Simulation"],
+  "assertions": [
+
+  ]
+}
