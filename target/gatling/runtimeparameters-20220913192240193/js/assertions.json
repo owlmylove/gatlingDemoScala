@@ -1,0 +1,10 @@
+{
+  "simulation": "videogamedb.commandline.RunTimeParameters",
+  "simulationId": "runtimeparameters-20220913192240193",
+  "start": 1663096966363,
+  "description": "",
+  "scenarios": ["Run from command line"],
+  "assertions": [
+
+  ]
+}
