@@ -1,0 +1,14 @@
+RUN	videogamedb.feeders.ComplexCustomFeeder	complexcustomfeeder	1663083031205	test	3.8.3
+USER	Complex Custom Feeder	START	1663083031958
+REQUEST		User Authenticate	1663083031956	1663083032099	OK	 
+ERROR	Create a new game Game-eLShO: Failed to build request: Resource resources/bodies/newGameTemplateBody.json not found 	1663083032269
+ERROR	Create a new game Game-vMDis: Failed to build request: Resource resources/bodies/newGameTemplateBody.json not found 	1663083033279
+ERROR	Create a new game Game-WYZgh: Failed to build request: Resource resources/bodies/newGameTemplateBody.json not found 	1663083034283
+ERROR	Create a new game Game-EutAw: Failed to build request: Resource resources/bodies/newGameTemplateBody.json not found 	1663083035286
+ERROR	Create a new game Game-rlZFB: Failed to build request: Resource resources/bodies/newGameTemplateBody.json not found 	1663083036290
+ERROR	Create a new game Game-NFsVq: Failed to build request: Resource resources/bodies/newGameTemplateBody.json not found 	1663083037294
+ERROR	Create a new game Game-mjZIy: Failed to build request: Resource resources/bodies/newGameTemplateBody.json not found 	1663083038297
+ERROR	Create a new game Game-auIYj: Failed to build request: Resource resources/bodies/newGameTemplateBody.json not found 	1663083039300
+ERROR	Create a new game Game-vLVJi: Failed to build request: Resource resources/bodies/newGameTemplateBody.json not found 	1663083040304
+ERROR	Create a new game Game-XSNxy: Failed to build request: Resource resources/bodies/newGameTemplateBody.json not found 	1663083041309
+USER	Complex Custom Feeder	END	1663083042315

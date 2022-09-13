@@ -1,0 +1,10 @@
+{
+  "simulation": "videogamedb.feeders.ComplexCustomFeeder",
+  "simulationId": "complexcustomfeeder-20220913153155345",
+  "start": 1663083116200,
+  "description": "test",
+  "scenarios": ["Complex Custom Feeder"],
+  "assertions": [
+
+  ]
+}

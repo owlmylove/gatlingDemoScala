@@ -1,0 +1,3 @@
+RUN	videogamedb.feeders.ComplexCustomFeeder	complexcustomfeeder	1663082932563	test	3.8.3
+USER	Complex Custom Feeder	START	1663082933843
+REQUEST		User Authenticate	1663082933841	1663082933988	OK	 
