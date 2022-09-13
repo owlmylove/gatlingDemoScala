@@ -1,0 +1,10 @@
+{
+  "simulation": "videogamedb.simulations.BasicSimulationTest",
+  "simulationId": "basicsimulationtest-20220913170051650",
+  "start": 1663088457973,
+  "description": "test",
+  "scenarios": ["Basic Load test"],
+  "assertions": [
+
+  ]
+}
