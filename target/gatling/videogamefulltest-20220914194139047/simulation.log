@@ -1,0 +1,72 @@
+RUN	videogamedb.finalsimulation.VideoGameFullTest	videogamefulltest	1663184499047	test	3.8.3
+USER	Final Test Video game	START	1663184505662
+REQUEST		Get all video games	1663184505657	1663184505841	OK	 
+REQUEST		Authenticateion	1663184506940	1663184506995	OK	 
+USER	Final Test Video game	START	1663184507612
+REQUEST		Get all video games	1663184507607	1663184507791	OK	 
+REQUEST		Authenticateion	1663184508795	1663184508852	OK	 
+REQUEST		Create new game - Gran Turismo 3	1663184509328	1663184509392	OK	 
+USER	Final Test Video game	START	1663184509609
+REQUEST		Get all video games	1663184509606	1663184509778	OK	 
+REQUEST		Get a single game - Gran Turismo 3	1663184510400	1663184510461	KO	status.find.is(20), but actually found 200
+REQUEST		Authenticateion	1663184510781	1663184510842	OK	 
+REQUEST		Create new game - Super Mario 64	1663184510859	1663184510913	OK	 
+USER	Final Test Video game	START	1663184511606
+REQUEST		Get all video games	1663184511605	1663184511779	OK	 
+REQUEST		Get a single game - Super Mario 64	1663184511917	1663184511977	KO	status.find.is(20), but actually found 200
+REQUEST		Delete a game - Gran Turismo 3	1663184512471	1663184512531	OK	 
+REQUEST		Authenticateion	1663184512784	1663184512838	OK	 
+REQUEST		Create new game - Tetris	1663184512848	1663184512901	OK	 
+USER	Final Test Video game	START	1663184513606
+REQUEST		Get all video games	1663184513605	1663184513775	OK	 
+REQUEST		Get a single game - Tetris	1663184513907	1663184513962	KO	status.find.is(20), but actually found 200
+REQUEST		Delete a game - Super Mario 64	1663184513981	1663184514033	OK	 
+REQUEST		Get all video games	1663184514537	1663184514589	OK	 
+REQUEST		Authenticateion	1663184514779	1663184514833	OK	 
+REQUEST		Create new game - Tetris	1663184514846	1663184514899	OK	 
+REQUEST		Authenticateion	1663184515593	1663184515653	OK	 
+REQUEST		Get a single game - Tetris	1663184515904	1663184515964	KO	status.find.is(20), but actually found 200
+REQUEST		Delete a game - Tetris	1663184515967	1663184516020	OK	 
+REQUEST		Get all video games	1663184516038	1663184516090	OK	 
+REQUEST		Create new game - Gran Turismo 3	1663184516842	1663184516901	OK	 
+REQUEST		Authenticateion	1663184517095	1663184517151	OK	 
+REQUEST		Create new game - Tetris	1663184517658	1663184517713	OK	 
+REQUEST		Get a single game - Gran Turismo 3	1663184517906	1663184517964	KO	status.find.is(20), but actually found 200
+REQUEST		Delete a game - Tetris	1663184517969	1663184518021	OK	 
+REQUEST		Get all video games	1663184518023	1663184518075	OK	 
+REQUEST		Get a single game - Tetris	1663184518716	1663184518774	KO	status.find.is(20), but actually found 200
+REQUEST		Authenticateion	1663184519078	1663184519139	OK	 
+REQUEST		Create new game - Super Mario 64	1663184519156	1663184519208	OK	 
+REQUEST		Delete a game - Gran Turismo 3	1663184519971	1663184520029	OK	 
+REQUEST		Get all video games	1663184520025	1663184520078	OK	 
+REQUEST		Get a single game - Super Mario 64	1663184520212	1663184520265	KO	status.find.is(20), but actually found 200
+REQUEST		Delete a game - Tetris	1663184520778	1663184520832	OK	 
+REQUEST		Authenticateion	1663184521082	1663184521145	OK	 
+REQUEST		Create new game - Gran Turismo 3	1663184521146	1663184521200	OK	 
+REQUEST		Get all video games	1663184522033	1663184522093	OK	 
+REQUEST		Get a single game - Gran Turismo 3	1663184522203	1663184522256	KO	status.find.is(20), but actually found 200
+REQUEST		Delete a game - Super Mario 64	1663184522269	1663184522321	OK	 
+REQUEST		Get all video games	1663184522834	1663184522893	OK	 
+REQUEST		Authenticateion	1663184523099	1663184523153	OK	 
+REQUEST		Create new game - Gran Turismo 3	1663184523152	1663184523205	OK	 
+REQUEST		Authenticateion	1663184523896	1663184523958	OK	 
+REQUEST		Get a single game - Gran Turismo 3	1663184524211	1663184524264	KO	status.find.is(20), but actually found 200
+REQUEST		Delete a game - Gran Turismo 3	1663184524262	1663184524315	OK	 
+REQUEST		Get all video games	1663184524325	1663184524377	OK	 
+REQUEST		Create new game - Resident Evil 4	1663184525160	1663184525212	OK	 
+REQUEST		Authenticateion	1663184525380	1663184525435	OK	 
+REQUEST		Create new game - Super Mario 64	1663184525963	1663184526022	OK	 
+REQUEST		Get a single game - Resident Evil 4	1663184526215	1663184526272	KO	status.find.is(20), but actually found 200
+REQUEST		Delete a game - Gran Turismo 3	1663184526269	1663184526321	OK	 
+REQUEST		Get all video games	1663184526318	1663184526373	OK	 
+REQUEST		Get a single game - Super Mario 64	1663184527026	1663184527087	KO	status.find.is(20), but actually found 200
+REQUEST		Authenticateion	1663184527376	1663184527439	OK	 
+REQUEST		Create new game - Gran Turismo 3	1663184527441	1663184527492	OK	 
+REQUEST		Delete a game - Resident Evil 4	1663184528280	1663184528338	OK	 
+REQUEST		Get all video games	1663184528324	1663184528377	OK	 
+REQUEST		Get a single game - Gran Turismo 3	1663184528496	1663184528551	KO	status.find.is(20), but actually found 200
+REQUEST		Delete a game - Super Mario 64	1663184529091	1663184529152	OK	 
+REQUEST		Authenticateion	1663184529381	1663184529434	OK	 
+REQUEST		Create new game - Super Mario 64	1663184529444	1663184529498	OK	 
+REQUEST		Get all video games	1663184530341	1663184530401	OK	 
+REQUEST		Get a single game - Super Mario 64	1663184530502	1663184530560	KO	status.find.is(20), but actually found 200

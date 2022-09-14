@@ -1,0 +1,10 @@
+{
+  "simulation": "videogamedb.finalsimulation.VideoGameFullTest",
+  "simulationId": "videogamefulltest-20220914193415659",
+  "start": 1663184062093,
+  "description": "test",
+  "scenarios": ["Final Test Video game"],
+  "assertions": [
+
+  ]
+}
