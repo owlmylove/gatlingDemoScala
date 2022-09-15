@@ -11,7 +11,7 @@ class VideoGameFullTest extends Simulation {
   //.contentTypeHeader("application/json")
 
   // for Travis CI
-  val httpProtocol = http.baseUrl("http://video-game-db.eu-west-2.elasticbeanstalk.com/app/")
+  val httpProtocol = http.baseUrl("http://video-game-db.eu-west-2.elasticbeanstalk.com/app")
     .header("Accept", "application/json")
     .contentTypeHeader("application/json")
 
