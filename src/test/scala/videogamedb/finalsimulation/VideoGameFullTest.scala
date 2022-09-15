@@ -11,7 +11,7 @@ class VideoGameFullTest extends Simulation {
 
   val csvFeeder= csv("data/gameCsvFile.csv").random
 
-  def rampUserCount = System.getProperty("USERS", "5").toInt
+  def rampUserCount = System.getProperty("USER","5").toInt
   def duringTime = System.getProperty("RAMP_DURATION", "10").toInt
   def maxDuration = System.getProperty("MAX_DURATION", "30").toInt
 
