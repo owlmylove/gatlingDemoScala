@@ -5,9 +5,16 @@ import io.gatling.http.Predef._
 
 class VideoGameFullTest extends Simulation {
 
-  val httpProtocol = http.baseUrl("https://videogamedb.uk/api")
-    .acceptHeader("application/json")
+  //Jenkins CI
+  // val httpProtocol = http.baseUrl("https://videogamedb.uk/api")
+  //.acceptHeader("application/json")
+  //.contentTypeHeader("application/json")
+
+  // for Travis CI
+  val httpConfiguration = http.baseUrl("http://video-game-db.eu-west-2.elasticbeanstalk.com/app/")
+    .header("Accept", "application/json")
     .contentTypeHeader("application/json")
+
 
   val csvFeeder= csv("data/gameCsvFile.csv").random
 
@@ -24,7 +31,7 @@ class VideoGameFullTest extends Simulation {
 
 
   def authenticate()={
-    exec(http("Authenticateion")
+    exec(http("Authentication")
     .post("/authenticate")
     .body(StringBody("{\n  \"password\": \"admin\",\n  \"username\": \"admin\"\n}"))
     .check(jsonPath("$.token").saveAs("jwtToken")))
@@ -80,7 +87,11 @@ class VideoGameFullTest extends Simulation {
     scn.inject(
       nothingFor(5),
       rampUsers(rampUserCount).during(duringTime)
-    ).protocols(httpProtocol)
+      //Jenkins
+      //.protocols(httpConfiguration)
+
+      //Travis
+    ).protocols(httpConfiguration)
   ).maxDuration(maxDuration)
     .assertions(
       global.responseTime.max.lt(2),

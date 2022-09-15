@@ -1,0 +1,16 @@
+ASSERTION	AAEDAAECAwAAAAAAAAAAQA==
+ASSERTION	AAECAAIEAAAAAAAAwFhA
+RUN	videogamedb.finalsimulation.VideoGameFullTest	videogamefulltest	1663257144985	 	3.8.3
+REQUEST		Get all video games	1663257151357	1663257151357	KO	j.n.UnknownHostException: video-game-db.eu-west-2.elasticbeanstalk.com
+USER	Final Test Video game	START	1663257151362
+REQUEST		Authenticateion	1663257152370	1663257152370	KO	j.n.UnknownHostException: video-game-db.eu-west-2.elasticbeanstalk.com
+ERROR	Create new game - Tetris: Failed to build request: No attribute named 'jwtToken' is defined 	1663257154381
+REQUEST		Get a single game - Tetris	1663257155396	1663257155396	KO	j.n.UnknownHostException: video-game-db.eu-west-2.elasticbeanstalk.com
+REQUEST		Get all video games	1663257156333	1663257156334	KO	j.n.UnknownHostException: video-game-db.eu-west-2.elasticbeanstalk.com: nodename nor servname provided, or not known
+USER	Final Test Video game	START	1663257156334
+REQUEST		Authenticateion	1663257157336	1663257157336	KO	j.n.UnknownHostException: video-game-db.eu-west-2.elasticbeanstalk.com
+ERROR	Delete a game - Tetris: Failed to build request: No attribute named 'jwtToken' is defined 	1663257157399
+ERROR	Create new game - Tetris: Failed to build request: No attribute named 'jwtToken' is defined 	1663257159337
+REQUEST		Get all video games	1663257159402	1663257159402	KO	j.n.UnknownHostException: video-game-db.eu-west-2.elasticbeanstalk.com
+REQUEST		Get a single game - Tetris	1663257160339	1663257160339	KO	j.n.UnknownHostException: video-game-db.eu-west-2.elasticbeanstalk.com
+REQUEST		Authenticateion	1663257160405	1663257160405	KO	j.n.UnknownHostException: video-game-db.eu-west-2.elasticbeanstalk.com
