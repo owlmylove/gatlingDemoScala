@@ -11,7 +11,7 @@ class VideoGameFullTest extends Simulation {
   //.contentTypeHeader("application/json")
 
   // for Travis CI
-  val httpConfiguration = http.baseUrl("http://video-game-db.eu-west-2.elasticbeanstalk.com/app/")
+  val httpProtocol = http.baseUrl("http://video-game-db.eu-west-2.elasticbeanstalk.com/app/")
     .header("Accept", "application/json")
     .contentTypeHeader("application/json")
 
@@ -91,7 +91,7 @@ class VideoGameFullTest extends Simulation {
       //.protocols(httpConfiguration)
 
       //Travis
-    ).protocols(httpConfiguration)
+    ).protocols(httpProtocol)
   ).maxDuration(maxDuration)
     .assertions(
       global.responseTime.max.lt(2),
