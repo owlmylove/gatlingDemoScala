@@ -23,7 +23,7 @@ class VideoGameFullTest extends Simulation {
   def maxDuration = System.getProperty("MAX_DURATION", "30").toInt
 
   before{
-    println("Test starting")
+    println("Test start")
     println(s"Running out test with: ${rampUserCount}")
     println(s"Ramping users over: ${duringTime}")
     println(s"Total test will last: ${maxDuration}")
