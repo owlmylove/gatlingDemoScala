@@ -87,10 +87,6 @@ class VideoGameFullTest extends Simulation {
     scn.inject(
       nothingFor(5),
       rampUsers(rampUserCount).during(duringTime)
-      //Jenkins
-      //.protocols(httpConfiguration)
-
-      //Travis
     ).protocols(httpProtocol)
   ).maxDuration(maxDuration)
     .assertions(
