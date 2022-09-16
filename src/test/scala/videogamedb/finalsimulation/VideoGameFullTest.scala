@@ -6,14 +6,14 @@ import io.gatling.http.Predef._
 class VideoGameFullTest extends Simulation {
 
   //Jenkins CI
-  // val httpProtocol = http.baseUrl("https://videogamedb.uk/api")
-  //.acceptHeader("application/json")
-  //.contentTypeHeader("application/json")
+   val httpProtocol = http.baseUrl("https://videogamedb.uk/api")
+  .acceptHeader("application/json")
+  .contentTypeHeader("application/json")
 
   // for Travis CI
-  val httpProtocol = http.baseUrl("http://video-game-db.eu-west-2.elasticbeanstalk.com/app")
-    .header("Accept", "application/json")
-    .contentTypeHeader("application/json")
+ // val httpProtocol = http.baseUrl("http://video-game-db.eu-west-2.elasticbeanstalk.com/app")
+   // .header("Accept", "application/json")
+    //.contentTypeHeader("application/json")
 
 
   val csvFeeder= csv("data/gameCsvFile.csv").random
